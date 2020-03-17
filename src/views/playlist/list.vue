@@ -89,7 +89,7 @@
           params: {
             form2: true,
             _id: row._id,
-            path:'http://localhost:3000/playlist/updateMusic'
+            path:'http://localhost:3000/v1/playlist/updateMusic'
           }
         })
       },
@@ -99,7 +99,7 @@
           params: {
             form2: true,
             _id: row._id,
-            path:'http://localhost:3000/playlist/updateImg'
+            path:'http://localhost:3000/v1/playlist/updateImg'
           }
         })
       },

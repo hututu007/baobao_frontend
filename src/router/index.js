@@ -65,7 +65,7 @@ export const constantRoutes = [
       {
         path: 'list',
         component: () => import('@/views/swiper/list'),
-        meta: { title: '轮播图管理', icon: 'example' }
+        meta: { title: '设置', icon: 'example' }
       }
     ]
   },
